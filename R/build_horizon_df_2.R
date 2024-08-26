@@ -13,7 +13,7 @@ utils::globalVariables(c("ymin", "ymax", "fill", "y", "outlier", "x", "group",
 #' @importFrom dplyr mutate between select transmute bind_cols
 #' @importFrom tidyr pivot_longer starts_with
 #' @importFrom magrittr '%>%'
-#' @importFrom stringr str_detect
+#' @importFrom yulab.utils str_detect
 #' @importFrom stats IQR median quantile setNames
 #' @keywords internal
 
